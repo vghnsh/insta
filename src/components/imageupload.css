@@ -1,0 +1,7 @@
+.imageUpload{
+    display: flex;
+    flex-direction: column;
+}
+.prog{
+    width: 100%;
+}

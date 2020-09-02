@@ -1,0 +1,44 @@
+.post{
+
+    flex-direction: column;
+    border:1px solid lightgrey;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.post_header{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+.post_header h3{
+    margin-left: 0px;
+
+}
+.post_img{
+    object-fit: contain;
+    
+    
+}
+.post_img img{
+    
+    width: 100%;
+    
+    border:1px solid lightgray;
+    
+}
+.caption{
+    
+    padding-top: 7px;
+    padding-bottom: 15px;
+}
+.comment-box{
+    display: flex;
+}
+.post_input{
+    flex: 1;
+}
+.pst_btn{
+    flex: 0;
+}
